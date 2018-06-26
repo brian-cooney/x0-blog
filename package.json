@@ -1,0 +1,77 @@
+{
+  "name": "writing",
+  "version": "2.0.0",
+  "description": "The writing of Adam Morse",
+  "main": "index.js",
+  "scripts": {
+    "medium": "babel-node medium",
+    "rss": "node rss.js",
+    "build": "x0 build pages",
+    "dev": "webpack-dev-server --progress --colors",
+    "clean": "rm -rf dist",
+    "start": "x0 pages -o",
+    "test": "echo \"hello\""
+  },
+  "keywords": [
+    "blog",
+    "writing",
+    "design",
+    "minimalism"
+  ],
+  "author": "Adam Morse",
+  "license": "MIT",
+  "devDependencies": {},
+  "x0": {
+    "title": "Murmurs Writing",
+    "basename": "/writing",
+    "meta": [
+      {
+        "name": "description",
+        "content": "The writing of Adam Morse"
+      },
+      {
+        "name": "author",
+        "content": "Adam Morse"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "twitter:site",
+        "content": "@mrmrs_"
+      },
+      {
+        "name": "twitter:title",
+        "content": "@mrmrs_ Writing"
+      },
+      {
+        "name": "twitter:description",
+        "content": "The writing of Adam Morse"
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://mrmrs.cc/avatar.png"
+      }
+    ]
+  },
+  "dependencies": {
+    "@compositor/md-loader": "^1.0.34",
+    "@compositor/x0": "^5.0.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-tag": "^1.0.4",
+    "emotion": "^9.1.3",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.13.1",
+    "html-tags": "^2.0.0",
+    "markdown-to-medium": "^1.4.4",
+    "react-emotion": "^9.1.3",
+    "rss": "^1.2.2",
+    "styled-system": "^2.3.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  }
+}

@@ -2,6 +2,7 @@
 title: "What is CSS for?"
 created: 2013-04-11
 layout: post
+ignore: true
 ---
 
 HTML is by default: responsive, vector, and highly readable on any device.

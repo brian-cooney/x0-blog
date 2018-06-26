@@ -2,6 +2,7 @@
 title: "Essential Vim Plugins"
 created: 2013-09-12
 layout: post
+ignore: true
 ---
 
 As a front-end developer I've found these plugins to be quite wonderful for editing HTML, CSS, and Javascript. While
